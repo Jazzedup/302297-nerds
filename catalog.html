@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Nerds</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      
+    <header>
+      <div class="conteiner"> 
+        <a class="header-logo" href="/index.html"><img src="#"></a>
+          <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="main-nav-page">Студия</a></li>
+                <li><a href="#" class="main-nav-page">Клиенты</a></li>
+                <li><a href="#" class="main-nav-page active">Магазин</a></li>
+                <li><a href="#" class="main-nav-page">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="user-block">
+              <a class="login" href="#">Корзина</a>
+          </div>
+          <div class="header-title">
+              <h1>Магазин готовых шаблонов</h1>
+          </div>
+          </div>
+      </header>
+      
+      <main>
+        <div class="conteiner">
+        
+        <aside>
+          <form action="#" method="post">
+          <div class="filters-aside">
+            <p>Стоимость:</p>
+            <div class="price">
+              <div class="scale">
+                  <div class="bar"></div>                  
+              <!-- без js тут можно ещё что-то сделать? -->    
+              </div>            
+              <div class="price-from-to">
+                   <label for="price-from">от</label>
+                   <input tupe="text" value="0" id="price-from">
+                   <label for="price-to">до</label>
+                   <input tupe="text" value="15 000" id="price-to">
+              </div>
+            </div>
+            <p>Сетка:</p>                  
+              <input type="radio" name="grid" id="adaptive" checked>
+              <label for="adaptive">Адаптивная</label>                
+              <input type="radio" name="grid" id="fixed">
+              <label for="fixed">Фиксированная</label>                
+              <input type="radio" name="grid" id="width">
+              <label for="width">Резиновая</label>               
+            <p>Особенности:</p>                  
+              <input type="checkbox" name="feature-1" id="slider" checked>
+              <label for="slider">Слайдер</label>                            
+              <input type="checkbox" name="feature-2" id="features-block">
+              <label for="features-block">Блок преимуществ</label>                            
+              <input type="checkbox" name="feature-3" id="news" checked>              
+              <label for="news">Новости</label>              
+              <input type="checkbox" name="feature-4" id="gallery">
+              <label for="gallery">Галерея</label>                  
+              <input type="checkbox" name="feature-5" id="basket">
+              <label for="basket">Корзина</label>
+            </div>            
+             <button value="Показать">Показать</button>
+            </form>
+        </aside>
+            
+        <div class="catalog">
+            
+            <p>Сортировать:</p>
+            <div class="sort-catalog">
+            <ul class="criterions">                
+                <li><a href="#" class="criterions-sort active-sort">по цене</a></li>
+                <li><a href="#" class="criterions-sort">по типу</a></li>
+                <li><a href="#" class="criterions-sort">по названию</a></li>
+            </ul>
+            <!-- тут ниже тоже сплошной js или можно что-то предпринять? наворотила ужас -->
+            <div class="criterions-down-up">
+            <ul class="down-up-icons">
+                <li><a href="#" class="down-up-sort active-sort"><img src="#"></a></li>
+                <li><a href="#" class="down-up-sort"><img src="#"></a></li>
+            </ul>                
+            </div>
+            </div>
+            
+            <div class="catalog-items">
+                <article class="catalog-item">
+                    <figure class="catalog-item-img"><img src="#"></figure>
+                    <div class="item-info">
+                        <h2>SEDONA</h2>
+                        <p>Информационный сайт для туристов</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="catalog-item">
+                    <figure class="catalog-item-img"><img src="#"></figure>
+                    <div class="item-info">
+                        <h2>PINK APP</h2>
+                        <p>Продуктовый лендинг приложения для iOS и Android</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="catalog-item">
+                    <figure class="catalog-item-img"><img src="#"></figure>
+                    <div class="item-info">
+                        <h2>BARBERSHOP</h2>
+                        <p>Сайт салона красоты. Для мужчин, да.</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="catalog-item">
+                    <figure class="catalog-item-img"><img src="#"></figure>
+                    <div class="item-info">
+                        <h2>MISHKA</h2>
+                        <p>Интернет-магазин вязаных игрушек</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="catalog-item">
+                    <figure class="catalog-item-img"><img src="#"></figure>
+                    <div class="item-info">
+                        <h2>A PLUS</h2>
+                        <p>Лендинг курсов повышения квалификации</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+                <article class="catalog-item">
+                    <figure class="catalog-item-img"><img src="#"></figure>
+                    <div class="item-info">
+                        <h2>КВАС</h2>
+                        <p>Промо-сайт производителя крафтового кваса</p>
+                        <a class="btn" href="#">9 900 руб.</a>
+                    </div>
+                </article>
+            </div>
+            </div>
+            
+        <div class="catalog-page-nav">
+          <ul class="catalog-page">
+            <li> <a href="page-1.html" class="page active">1</a></li>
+            <li> <a href="page-2.html" class="page">2</a></li>
+            <li> <a href="page-3.html" class="page">3</a></li>
+            <li> <a href="page-4.html" class="page next">следующая</a></li>          
+          </ul>
+        </div>           
+        </div>
+      </main>
+      
+      <footer>
+        <div class="map">
+            <div class="contacts">
+                <b>NЁRDS DESIGN STUDIO</b>
+                <p>191186, Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
+                <p>тел. +7(812)275-75-75</p>
+                <a href="#" class="btn">Напишите нам</a>
+            </div>
+        </div>
+        <div class="write-us-area">
+                <b>Напишите нам</b>
+                <form action="#" class="write-us" method="post">
+                  <div class="your-name">
+                    <label for="name-field">Ваше имя:</label>
+                    <input type="text" name="name" id="name-field" placeholder="Представьтесь, пожалуйста">
+                  </div>
+                  <div class="your-mail">
+                    <label for="mail-field">Ваш e-mail:</label>
+                    <input type="text" name="mail" id="mail-field" placeholder="Для отправки ответа">
+                    </div>
+                  <div class="your-text">
+                    <label for="inbox-field">Текст письма:</label>
+                    <textarea name="inbox" id="inbox-field" rows="4" placeholder="В свободной форме"></textarea>
+                  </div>
+                <input type="submit" value="Отправить">
+                </form>
+        </div>
+        <div class="conteiner">
+            <div class="social-networks">
+                <ul class="social-links">
+                  <li><a target="#" href="#" title="Вконтакте"><img src="#" alt="Вконтакте"></a></li>
+                  <li><a target="#" href="#" title="Facebook"><img src="#" alt="Facebook"></a></li>
+                  <li><a target="#" href="#" title="Instagram"><img src="#" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="discount">
+            <b>Давайте дружить, это выгодно!</b>
+            <p>Скидка 10% для друзей из социальных сетей</p>
+            </div>                 
+        </div>      
+      </footer>
+      <script src="script.js"> </script>
+  </body>
+</html>
