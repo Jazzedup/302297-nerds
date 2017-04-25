@@ -1,0 +1,24 @@
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+    font-family: "Roboto", sans-serif;
+}
+  
+h2.advantages-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto", sans-serif;    
+}
+
+.discount h3 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+    
