@@ -1,3 +1,11 @@
+html, 
+body {
+    min-width: 1440px;
+    min-height: 2476px;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 16px;
     line-height: 24px;
@@ -7,7 +15,7 @@ body {
 h2.advantages-title {
     font-size: 24px;
     line-height: 30px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .discount h3 {
@@ -16,3 +24,145 @@ h2.advantages-title {
     font-weight: 400;
 }
     
+.page-header {
+    padding-top: 50px;
+    background: #eeeeee;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-top-layout {
+    display: flex;
+    justify-content: space-between;
+    height: 114px;
+}
+
+.header-logo {
+    display: block;
+    width: 160px;
+    height: 65px;
+}
+
+.main-nav {
+    width: 600px;
+    margin-left: 160px;
+}
+
+.main-nav ul {
+    margin: 0 auto;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
+.main-nav a {
+    display: block;
+}
+
+.user-block {
+    width: 160px;
+}
+
+.user-block a {
+    display: inline-block;
+    
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    height: 430px;
+}
+
+.slide-1 {
+    background-image: url("#");    
+}
+
+.slide-info strong {
+    font-size: 55px;
+}
+
+.more {
+    width: 240px;
+    height: 50px;
+    margin-bottom: 80px;
+    background-color: #fb565a;
+}
+
+.btn {
+    display: block;
+    border-radius: 4px;
+    font-weight: 500 #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages {
+    width: 1100px;
+    margin-bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.order {
+    width: 160px;
+    height: 50px;
+}
+
+.order-red {
+    background-color: #fb565a;
+}
+
+.order-green {
+    background-color: #00ca74;
+}
+
+.order-yellow {
+    background-color: #efc84a;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.partners ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 180px;
+}
+
+.line-bottom {
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

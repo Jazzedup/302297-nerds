@@ -7,9 +7,10 @@
   </head>
   <body>
       
-    <header>
-      <div class="conteiner"> 
-        <a class="header-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/nerds-logo.png" alt="Nerds"></a>
+    <header class="page-header">
+      <div class="conteiner">
+        <div class="header-top-layout">
+          <a class="header-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/nerds-logo.png" width="160" height="65" alt="Nerds"></a>
           <nav class="main-nav">
             <ul>
                 <li><a href="#" class="main-nav-page active">Студия</a></li>
@@ -21,6 +22,7 @@
           <div class="user-block">
               <a class="login" href="#">Корзина</a>
           </div>
+        </div>
           <div class="slider">
                   <input id="slide-1" type="radio" name="toggle" checked>
                   <input id="slide-2" type="radio" name="toggle"> 
@@ -31,25 +33,25 @@
                 <label for="slide-3"></label>
                 </div>       
               <div class="slides">
-                <div class="slide">
+                <div class="slide slide-1">
                   <section class="slide-info">
                     <strong>Долго, дорого, скрупулёзно</strong>
                     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-                    <a class="btn" href="#">Узнать больше</a>
+                    <a class="more btn" href="#">Узнать больше</a>
                   </section>
                 </div>
-                <div class="slide">
+                <div class="slide slide-2">
                   <section class="slide-info">
                     <strong>Любим математику как никто другой</strong>
                     <p>Никакого креатива, только математические формулы для расчёта идеальных пропорций.</p>
-                    <a class="btn" href="#">Узнать больше</a>
+                    <a class="more btn" href="#">Узнать больше</a>
                   </section>                  
                 </div>
-                <div class="slide">
+                <div class="slide slide-3">
                   <section class="slide-info">
                     <strong>Только ночь, только хардкор</strong>
                     <p>Работаете днём, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-                    <a class="btn" href="#">Узнать больше</a>
+                    <a class="more btn" href="#">Узнать больше</a>
                   </section>
                 </div>
               </div> 
@@ -60,22 +62,23 @@
       <main>
         <div class="conteiner">
           <div class="advantages">
-              <section class="websites">
+              <section class="advantage websites">
                 <h2 class="advantages-title">Веб-сайты</h2>
                   <p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
                   <a class="order order-red btn" href="#">Заказать</a>
               </section>
-              <section class="applications">
+              <section class="advantage applications">
                 <h2 class="advantages-title">Приложения</h2>
                   <p>Покорите топ-10 приложений в AppStore и Google Play</p>
                   <a class="order order-green btn" href="#">Заказать</a>
               </section>
-              <section class="presentations">
+              <section class="advantage presentations">
                 <h2 class="advantages-title">Презентации</h2>
                   <p>Вы даже не представляете, насколько вы изумительны!</p>
                   <a class="order order-yellow btn" href="#">Заказать</a>
               </section>
           </div>
+        <div class="line"></div>
             
           <div class="about-us-left">
             <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
@@ -102,6 +105,7 @@
                 </tr>              
             </table>
           </div>
+        <div class="line"></div>
             
         <div class="partners">
           <ul class="partners-list">
@@ -111,6 +115,7 @@
               <li><a href="#" class="partner-4"><img src="img/logo-4.png" alt="Mishka"></a></li>            
           </ul>
         </div>
+        <div class="line line-bottom"></div>
         </div>
       </main>
       
