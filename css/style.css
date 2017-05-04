@@ -1,6 +1,6 @@
 html, 
 body {
-    min-width: 1440px;
+    min-width: 1200px;
     min-height: 2476px;
     margin: 0;
     padding: 0;
@@ -9,7 +9,8 @@ body {
 body {
     font-size: 16px;
     line-height: 24px;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: #ffffff;
 }
   
 h2.advantages-title {
@@ -18,12 +19,6 @@ h2.advantages-title {
     font-weight: 400;
 }
 
-.discount h3 {
-    font-size: 36px;
-    line-height: 36px;
-    font-weight: 400;
-}
-    
 .page-header {
     padding-top: 50px;
     background: #eeeeee;
@@ -38,7 +33,6 @@ h2.advantages-title {
 .header-top-layout {
     display: flex;
     justify-content: space-between;
-    height: 114px;
 }
 
 .header-logo {
@@ -67,14 +61,19 @@ h2.advantages-title {
 
 .main-nav a {
     display: block;
+    padding-top: 25px;
+    padding-bottom: 3px;
 }
 
 .user-block {
+    display: flex;
+    justify-content: flex-end;
     width: 160px;
 }
 
 .user-block a {
     display: inline-block;
+    padding-top: 25px;
     
 }
 
@@ -136,6 +135,40 @@ h2.advantages-title {
     background-color: #efc84a;
 }
 
+/*about-us*/
+
+.about-us {
+    display: flex;
+}
+
+.about-us-left {
+    width: 680px;
+}
+
+.about-us-right {
+    width: 360px;
+}
+
+.about-us-right-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-plus {
+    width: 120px;
+    margin-top: 25px;
+}
+
+.about-us-plus b {
+    display: block;
+    margin-bottom: 17px;
+    font-size: 45px;
+}
+
+.about-us-plus sup {
+  font-size: 27px;
+}
+
 .line {
     width: 100%;
     border: 1px solid #eeeeee;
@@ -152,15 +185,56 @@ h2.advantages-title {
     margin-bottom: 80px;
 }
 
+/*footer*/
 
+.write-us-area {
+    display: none;
+}
 
+.contacts {
+    width: 319px;
+    height: 308px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+ 
 
+.page-footer {
+    min-height: 633px;
+}
 
+.footer-layout {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.social-networks {
+    width: 360px;
+    margin-right: 40px;
+}
 
+.social-links {
+    display: flex;
+}
 
+a.social-link {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background-color: #e1e1e1;
+}
 
+.discount {
+    width: 560px;
+}
 
+.discount h3 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+}
 
 
 
