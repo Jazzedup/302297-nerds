@@ -1,7 +1,6 @@
 html, 
 body {
     min-width: 1200px;
-    min-height: 2476px;
     margin: 0;
     padding: 0;
 }
@@ -185,10 +184,112 @@ h2.advantages-title {
     margin-bottom: 80px;
 }
 
+/*sidebar*/
+
+.main-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 260px;
+}
+
+.range-filter {
+    background: yellow;
+}
+
+.range-control {
+    width: 260px;
+    height: 80px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+}
+
+.filter-on-radio-buttons {
+    background: yellow;
+    margin-bottom: 44px;    
+}
+
+.filter-on-checkbox {
+    background: yellow;
+}
+
+/*catalog*/
+
+.catalog {
+    width: 760px;
+    background: yellow;
+}
+
+.sort-catalog {
+    margin-bottom: 32px;
+}
+
+.sort-catalog-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-catalog h4 {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.sort-catalog-criterions {
+    width: 300px;
+    margin-left: 80px;
+    padding: 20px 0;
+}
+
+.catalog-items-layout {
+    display: flex;
+    flex-wrap: wrap;
+    background: grey;
+}
+
+.item-info {
+    display: block;
+    width: 360px;
+    height: 230px;
+    text-align: center;
+    padding-bottom: 8px auto 43px;
+    background-color: #eeeeee;
+}
+
+.catalog-item img {
+    display: block;
+    width: 360px;
+    height: 576px;
+}
+
+/*catalog-page*/
+
+.catalog-page-layout {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.catalog-page li {
+    display: inline-block;
+}
+
+.catalog-page-nav a {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
 /*footer*/
 
 .write-us-area {
     display: none;
+}
+
+.write-us-btn {
+    width: 219px;
+    margin-top: 35px;
+    background-color: #fb565a;
 }
 
 .contacts {
@@ -197,7 +298,10 @@ h2.advantages-title {
     padding: 50px;
     background-color: #ffffff;
 }
- 
+
+.map {
+    width: 100%;
+}
 
 .page-footer {
     min-height: 633px;

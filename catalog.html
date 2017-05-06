@@ -30,66 +30,70 @@
       </header>
       
       <main>
-        <div class="conteiner">
+        <div class="conteiner main-layout">
         
-        <aside>
+        <aside class="sidebar">
           <form action="#" method="post">
-          <div class="filters-aside">
-            <p>Стоимость:</p>
-            <div class="price">
-              <div class="scale">
-                  <div class="bar"></div>                  
-              </div>            
-              <div class="price-from-to">
-                   <label for="price-from">от</label>
-                   <input type="text" value="0" id="price-from">
-                   <label for="price-to">до</label>
-                   <input type="text" value="15 000" id="price-to">
-              </div>
-            </div>
-            <p>Сетка:</p>                  
-              <input type="radio" name="grid" id="adaptive" checked>
-              <label for="adaptive">Адаптивная</label>                
-              <input type="radio" name="grid" id="fixed">
-              <label for="fixed">Фиксированная</label>                
-              <input type="radio" name="grid" id="width">
-              <label for="width">Резиновая</label>               
-            <p>Особенности:</p>                  
-              <input type="checkbox" name="feature-1" id="slider" checked>
-              <label for="slider">Слайдер</label>                            
-              <input type="checkbox" name="feature-2" id="features-block">
-              <label for="features-block">Блок преимуществ</label>                            
-              <input type="checkbox" name="feature-3" id="news" checked>              
-              <label for="news">Новости</label>              
-              <input type="checkbox" name="feature-4" id="gallery">
-              <label for="gallery">Галерея</label>                  
-              <input type="checkbox" name="feature-5" id="basket">
-              <label for="basket">Корзина</label>
-            </div>            
+              <section class="range-filter">
+				<h4>Стоимость:</h4>
+                <div class="range-control">
+                    <div class="scale">
+                    <div class="bar" style="width:70%"></div>                  
+                    </div>
+                    <div class="toggle min-toggle"></div>
+                    <div class="toggle max-toggle"></div>
+                </div>
+                <div class="price-control">
+                   <label for="price-min">от</label>
+                   <input type="text" value="0" id="price-min">
+                   <label for="price-max">до</label>
+                   <input type="text" value="15 000" id="price-max">
+                </div>
+              </section>
+              <section class="filter-on-radio-buttons">
+                <h4>Сетка:</h4>                  
+                  <input type="radio" name="grid" id="adaptive" checked>
+                  <label for="adaptive">Адаптивная</label>                
+                  <input type="radio" name="grid" id="fixed">
+                  <label for="fixed">Фиксированная</label>                
+                  <input type="radio" name="grid" id="width">
+                  <label for="width">Резиновая</label>
+              </section>
+              <section class="filter-on-checkbox">
+                  <h4>Особенности:</h4>                  
+                  <input type="checkbox" name="feature-1" id="slider" checked>
+                  <label for="slider">Слайдер</label>                            
+                  <input type="checkbox" name="feature-2" id="features-block">
+                  <label for="features-block">Блок преимуществ</label>                            
+                  <input type="checkbox" name="feature-3" id="news" checked>              
+                  <label for="news">Новости</label>              
+                  <input type="checkbox" name="feature-4" id="gallery">
+                  <label for="gallery">Галерея</label>                  
+                  <input type="checkbox" name="feature-5" id="basket">
+                  <label for="basket">Корзина</label>
+              </section>   
             <button type="button">Показать</button>
-            </form>
+          </form>
         </aside>
             
         <div class="catalog">
             
-            <p>Сортировать:</p>
-            <div class="sort-catalog">
-            <ul class="criterions">                
-                <li><a href="#" class="criterions-sort active-sort">по цене</a></li>
-                <li><a href="#" class="criterions-sort">по типу</a></li>
-                <li><a href="#" class="criterions-sort">по названию</a></li>
-            </ul>
-            <div class="criterions-down-up">
-            <ul class="down-up-icons">
-                <li><a href="#" class="down-up-sort active-sort"></a></li>
-                <li><a href="#" class="down-up-sort"></a></li>
-            </ul>                
+            <div class="sort-catalog sort-catalog-layout">            
+            <h4>Сортировать:</h4>
+            <div class="sort-catalog-criterions">
+                <a href="#" class="criterions-sort active-sort">по цене</a>
+                <a href="#" class="criterions-sort">по типу</a>
+                <a href="#" class="criterions-sort">по названию</a>
+            </div>                
+            <div class="sort-catalog-down-up">
+                <a href="#" class="down-up-sort active-sort"></a>
+                <a href="#" class="down-up-sort"></a>
+            </div>                
             </div>
-            </div>
-            
-            <div class="catalog-items">
+                        
+            <div class="catalog-items-layout">
                 <article class="catalog-item">
-                    <figure class="catalog-item-img"><img src="img/img-sedona.jpg" alt="Sedona"></figure>
+                    <img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
                     <div class="item-info">
                         <h2>Sedona</h2>
                         <p>Информационный сайт для туристов</p>
@@ -97,7 +101,7 @@
                     </div>
                 </article>
                 <article class="catalog-item">
-                    <figure class="catalog-item-img"><img src="img/img-pink.jpg" alt="Pink App"></figure>
+                    <img src="img/img-pink.jpg" alt="Pink App" width="360" height="576">
                     <div class="item-info">
                         <h2>Pink App</h2>
                         <p>Продуктовый лендинг приложения для iOS и Android</p>
@@ -105,7 +109,7 @@
                     </div>
                 </article>
                 <article class="catalog-item">
-                    <figure class="catalog-item-img"><img src="img/img-barbershop.jpg" alt="Barbershop"></figure>
+                    <img src="img/img-barbershop.jpg" alt="Barbershop" width="360" height="576">
                     <div class="item-info">
                         <h2>Barbershop</h2>
                         <p>Сайт салона красоты. Для мужчин, да.</p>
@@ -113,7 +117,7 @@
                     </div>
                 </article>
                 <article class="catalog-item">
-                    <figure class="catalog-item-img"><img src="img/img-mishka.jpg" alt="Mishka"></figure>
+                    <img src="img/img-mishka.jpg" alt="Mishka" width="360" height="576">
                     <div class="item-info">
                         <h2>Mishka</h2>
                         <p>Интернет-магазин вязаных игрушек</p>
@@ -121,7 +125,7 @@
                     </div>
                 </article>
                 <article class="catalog-item">
-                    <figure class="catalog-item-img"><img src="img/img-aplus.jpg" alt="A Plus"></figure>
+                    <img src="img/img-aplus.jpg" alt="A Plus" width="360" height="576">
                     <div class="item-info">
                         <h2>A Plus</h2>
                         <p>Лендинг курсов повышения квалификации</p>
@@ -129,7 +133,7 @@
                     </div>
                 </article>
                 <article class="catalog-item">
-                    <figure class="catalog-item-img"><img src="img/img-kvast.jpg" alt="Квас"></figure>
+                    <img src="img/img-kvast.jpg" alt="Квас" width="360" height="576">
                     <div class="item-info">
                         <h2>Квас</h2>
                         <p>Промо-сайт производителя крафтового кваса</p>
@@ -137,17 +141,18 @@
                     </div>
                 </article>
             </div>
-            </div>
-            
-        <div class="catalog-page-nav">
-          <ul class="catalog-page">
-            <li> <a href="page-1.html" class="page active">1</a></li>
-            <li> <a href="page-2.html" class="page">2</a></li>
-            <li> <a href="page-3.html" class="page">3</a></li>
-            <li> <a href="page-4.html" class="page next">следующая</a></li>          
-          </ul>
-        </div>           
+                
+            <div class="catalog-page-nav">
+              <ul class="catalog-page-layout">
+                <li> <a href="page-1.html" class="page active">1</a></li>
+                <li> <a href="page-2.html" class="page">2</a></li>
+                <li> <a href="page-3.html" class="page">3</a></li>
+                <li> <a href="page-4.html" class="page next">следующая</a></li>          
+              </ul>
+            </div>           
         </div>
+            
+      </div>
       </main>
       
       <footer>
