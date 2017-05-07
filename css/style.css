@@ -27,6 +27,7 @@ h2.advantages-title {
     width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .header-top-layout {
@@ -106,10 +107,18 @@ h2.advantages-title {
 }
 
 .advantages {
-    width: 1100px;
-    margin-bottom: 82px;
     display: flex;
     justify-content: space-between;
+    width: 1100px;
+    margin-top: 80px;
+    margin-bottom: 82px;
+}
+
+.advantage {
+    height: 347px;
+    width: 300px;
+    padding-top: 162px;
+    box-sizing: border-box;
 }
 
 .advantages-title {
@@ -138,14 +147,30 @@ h2.advantages-title {
 
 .about-us {
     display: flex;
+    justify-content: space-between;
+    height: 409px;
+    margin-top: 80px;
+    margin-bottom: 76px;
 }
 
 .about-us-left {
     width: 680px;
 }
 
+.about-us-left b {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.about-us-left h1 {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 .about-us-right {
     width: 360px;
+    padding-top: 249px;
 }
 
 .about-us-right-wrap {
@@ -292,15 +317,21 @@ h2.advantages-title {
     background-color: #fb565a;
 }
 
-.contacts {
-    width: 319px;
-    height: 308px;
-    padding: 50px;
-    background-color: #ffffff;
+.map {
+    position: relative;
+    height: 416px;
+    margin-bottom: 69px;
+    background: url("../img/map.png") no-repeat center center;
 }
 
-.map {
-    width: 100%;
+.contacts {
+    position: absolute;
+    top: 54px;
+        
+    width: 219px;
+    height: 208px;
+    padding: 50px;
+    background-color: #ffffff;
 }
 
 .page-footer {
@@ -312,22 +343,24 @@ h2.advantages-title {
     justify-content: flex-start;
 }
 
-.social-networks {
+.social {
     width: 360px;
     margin-right: 40px;
 }
 
-.social-links {
+.social ul {
     display: flex;
 }
 
-a.social-link {
-    display: block;
+.social-btn {
+    display: inline-block;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 12px;
+    vertical-align: top;
     background-color: #e1e1e1;
+    position: relative;
 }
 
 .discount {
