@@ -72,6 +72,8 @@ body {
 .main-nav a,
 .user-block a {
     display: block;
+    font-size: 16px;
+    line-height: 30px;
     font-weight: 500;
     padding-top: 25px;
     padding-bottom: 3px;
@@ -275,6 +277,8 @@ body {
     padding-top: 14px;
     box-sizing: border-box;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
@@ -307,8 +311,12 @@ body {
 h2.advantages-title {
     font-size: 24px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 17px;
 }
+
 .advantages {
     display: flex;
     justify-content: space-between;
@@ -356,13 +364,9 @@ h2.advantages-title {
     background-position: -40px -266px;
 }
 
-.advantages-title {
-    font-size: 24px;
-    text-transform: uppercase;
-}
-
 .order {
     width: 160px;
+    margin-top: 31px;
 }
 
 .order-red {
@@ -434,9 +438,7 @@ h2.advantages-title {
 }
 
 .services {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 24px;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -444,8 +446,13 @@ h2.advantages-title {
 .we-do {
     display: inline-block;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700;    
+    margin-top: 34px;
     margin-bottom: 34px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 34px;
+    box-sizing: border-box;
 }
 
 .services li {
@@ -485,8 +492,9 @@ h2.advantages-title {
     line-height: 24px;
     text-transform: uppercase;
     font-weight: 700;
-    margin-left: 30px;
     margin-bottom: 24px;
+    margin-top: 29px;
+    margin-left: 18px;
 }
 
 
@@ -497,16 +505,23 @@ h2.advantages-title {
 
 .about-us-plus {
     width: 120px;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 18px;    
 }
 
 .about-us-plus b {
     display: block;
     margin-bottom: 17px;
     font-size: 45px;
+    line-height: 45px;
+    font-weight: 500px;
 }
 
 .about-us-plus sup {
-  font-size: 27px;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 500;
 }
 
 /*partners*/
@@ -556,6 +571,7 @@ h2.advantages-title {
 h4.filter {
     font-size: 18px;
     line-height: 30px;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 48px;
 }
@@ -1008,7 +1024,7 @@ input[type="checkbox"]:checked + label span {
 .map {
     height: 416px;
     margin-bottom: 69px;
-    background: url("../img/map.png") no-repeat center center;
+    background: #eeeeee url("../img/map.png") no-repeat center center;
 }
 
 .map-container {
@@ -1154,12 +1170,11 @@ a.social-btn:active {
 .discount h3 {
     font-size: 36px;
     line-height: 36px;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: -5px;
 }
 
 .discount p {
-    display: block;
     margin-top: -10px;
 }
 
