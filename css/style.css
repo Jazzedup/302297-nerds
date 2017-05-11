@@ -917,6 +917,11 @@ input[type="checkbox"]:checked + label span {
     text-align: center;
 }
 
+.open-modal-item {
+    text-decoration: none;
+    color: #000000;
+}
+
 .item-info p {
     margin-top: 15px;
     margin-bottom: 29px;
