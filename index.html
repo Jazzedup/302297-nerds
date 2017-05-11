@@ -21,59 +21,69 @@
             </ul>
           </nav>
           <div class="user-block">
-              <a class="login" href="#">Корзина</a>
+              <a class="shop" href="#">Корзина</a>
           </div>
         </div>
-          <div class="slider">
-                  <input id="slide-1" type="radio" name="toggle" checked>
-                  <input id="slide-2" type="radio" name="toggle"> 
-                  <input id="slide-3" type="radio" name="toggle"> 
-                <div class="slider-indicator">
-                <label for="slide-1"></label>
-                <label for="slide-2"></label>
-                <label for="slide-3"></label>
-                </div>       
-              <div class="slides">
+        <div class="slider">
+            <input id="btn-1" type="radio" name="toggle" checked>
+            <input id="btn-2" type="radio" name="toggle"> 
+            <input id="btn-3" type="radio" name="toggle"> 
+            <div class="slider-controls">
+                <label for="btn-1"></label>
+                <label for="btn-2"></label>
+                <label for="btn-3"></label>
+            </div>
+            
+            <div class="slider-slides">
+                
                 <div class="slide slide-1">
+                  <div class="slide-1-background"></div>
                   <section class="slide-info">
                     <strong>Долго, дорого, скрупулёзно</strong>
                     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
                     <a class="more btn" href="#">Узнать больше</a>
                   </section>
                 </div>
+                
                 <div class="slide slide-2">
+                  <div class="slide-2-background"></div>
                   <section class="slide-info">
                     <strong>Любим математику как никто другой</strong>
                     <p>Никакого креатива, только математические формулы для расчёта идеальных пропорций.</p>
                     <a class="more btn" href="#">Узнать больше</a>
                   </section>                  
                 </div>
+                
                 <div class="slide slide-3">
+                  <div class="slide-3-background"></div>
                   <section class="slide-info">
                     <strong>Только ночь, только хардкор</strong>
                     <p>Работаете днём, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
                     <a class="more btn" href="#">Узнать больше</a>
-                  </section>
+                  </section> 
                 </div>
-              </div> 
-            </div>
-          </div>
+            
+            </div>     
+        </div>
+        </div>
       </header>
-      
-      <main>
+            
+      <main>        
+        <h1 class="visually-hidden">Nёrds Design Studio</h1>
+        
         <div class="container">
           <div class="advantages">
-              <section class="advantage">
+              <section class="advantage advantage-1">
                 <h2 class="advantages-title">Веб-сайты</h2>
                   <p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
                   <a class="order order-red btn" href="#">Заказать</a>
               </section>
-              <section class="advantage">
+              <section class="advantage advantage-2">                 
                 <h2 class="advantages-title">Приложения</h2>
                   <p>Покорите топ-10 приложений в AppStore и Google Play</p>
                   <a class="order order-green btn" href="#">Заказать</a>
               </section>
-              <section class="advantage">
+              <section class="advantage advantage-3">
                 <h2 class="advantages-title">Презентации</h2>
                   <p>Вы даже не представляете, насколько вы изумительны!</p>
                   <a class="order order-yellow btn" href="#">Заказать</a>
@@ -83,17 +93,17 @@
             
         <div class="about-us">
           <div class="about-us-left">
-            <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
+            <b class="lead">Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
             <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива. Работаем не покладая рук, как роботы.</p>
-            <h1>Выполняем заказы на разработку:</h1>
-              <ul class="services">
+            <ul class="services"><b class="we-do">Выполняем заказы на разработку:</b>
                 <li>Веб-сайтов любой сложности</li>
                 <li>Мобильных приложений для iOS и Android</li>
                 <li>Слайдшоу и видео для корпоративных презентаций</li>              
             </ul>
           </div>
           <div class="about-us-right">
-              <span>С 2004 года любим точность во всём:</span>
+              <div class="about-us-illustration"></div>
+              <b class="we-love">С 2004 года любим точность во всём:</b>
               <div class="about-us-right-wrap">
                   <p class="about-us-plus"><b>146<sup>%</sup></b> Уровень самоотдачи</p>
                   <p class="about-us-plus"><b>100<sup>%</sup></b> Соблюдение сроков</p>
