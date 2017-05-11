@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Nerds</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
       
@@ -38,7 +39,7 @@
                 
                 <div class="slide slide-1">
                   <div class="slide-1-background"></div>
-                  <section class="slide-info">
+                  <section class="slide-info"><h4 class="visually-hidden">Наш стиль</h4>
                     <strong>Долго, дорого, скрупулёзно</strong>
                     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
                     <a class="more btn" href="#">Узнать больше</a>
@@ -47,7 +48,7 @@
                 
                 <div class="slide slide-2">
                   <div class="slide-2-background"></div>
-                  <section class="slide-info">
+                  <section class="slide-info"><h4 class="visually-hidden">Наш стиль</h4>
                     <strong>Любим математику как никто другой</strong>
                     <p>Никакого креатива, только математические формулы для расчёта идеальных пропорций.</p>
                     <a class="more btn" href="#">Узнать больше</a>
@@ -56,7 +57,7 @@
                 
                 <div class="slide slide-3">
                   <div class="slide-3-background"></div>
-                  <section class="slide-info">
+                  <section class="slide-info"><h4 class="visually-hidden">Наш стиль</h4>
                     <strong>Только ночь, только хардкор</strong>
                     <p>Работаете днём, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
                     <a class="more btn" href="#">Узнать больше</a>
@@ -94,8 +95,9 @@
         <div class="about-us">
           <div class="about-us-left">
             <b class="lead">Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
-            <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива. Работаем не покладая рук, как роботы.</p>
-            <ul class="services"><b class="we-do">Выполняем заказы на разработку:</b>
+            <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива. Работаем не покладая рук, как роботы.</p>            
+            <b class="we-do">Выполняем заказы на разработку:</b>
+              <ul class="services">
                 <li>Веб-сайтов любой сложности</li>
                 <li>Мобильных приложений для iOS и Android</li>
                 <li>Слайдшоу и видео для корпоративных презентаций</li>              
@@ -126,11 +128,11 @@
       </main>
       
       <footer class="page-footer">
-        <section class="map">
+        <section class="map"><h5 class="visually-hidden">Найти нас просто:</h5>
             <div class="container"><div class="map-container">
               <div class="contacts">
                 <b>Nёrds Design Studio</b>
-                <p>191186, Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
+                <p>191186, Санкт-Петербург,<br>ул. Б.Конюшенная, д.19/8</p>
                 <p>тел. +7(812)275-75-75</p>
                 <a class="btn write-us-btn" href="#">Напишите нам</a>
               </div>
@@ -138,7 +140,7 @@
         </section>
         <div class="popup">
                 <b>Напишите нам</b>
-                <form action="#" class="write-us" method="post" class="popup-form">
+                <form action="#" method="post" class="popup-form">
                   <div class="your-name">
                     <label for="name-field">Ваше имя:</label><br>
                     <input type="text" name="name" id="name-field" placeholder="Представьтесь, пожалуйста">

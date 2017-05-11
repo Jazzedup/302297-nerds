@@ -8,8 +8,10 @@ body {
 body {
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
     font-family: "Roboto", "Arial", sans-serif;
     background-color: #ffffff;
+    letter-spacing: normal;
 }
 
 .page-header {
@@ -114,6 +116,19 @@ body {
     background-image: url("../img/spritesheet.png");
     background-position: -40px -40px;
     opacity: 0.3;
+}
+
+.main-nav .active {
+    border-bottom: 2px solid #fb565a;
+
+}
+
+/*sprite*/
+
+.sprite {
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
 }
 
 /*slider*/
@@ -267,10 +282,11 @@ body {
     text-decoration: none;
 }
 
-/*h1 index*/
+/*h hidden*/
 
 .visually-hidden {
     position: absolute;
+    z-index: 999;
     left: -10000px;
     top: auto;
     width: 1px;
@@ -537,7 +553,7 @@ h2.advantages-title {
     width: 260px;
 }
 
-h4 {
+h4.filter {
     font-size: 18px;
     line-height: 30px;
     text-transform: uppercase;
@@ -725,9 +741,6 @@ input[type="checkbox"]:checked + label span {
     width: 760px;
 }
 
-    margin-bottom: 32px;
-}
-
 .sort-catalog-layout {
     display: flex;
     justify-content: space-between;
@@ -741,7 +754,9 @@ input[type="checkbox"]:checked + label span {
 .sort-catalog-criterions {
     width: 300px;
     margin-left: 80px;
+    
     padding: 20px 0;
+    box-sizing: border-box;
 }
 
 .criterions-sort {
@@ -1156,7 +1171,7 @@ a.social-btn:active {
     left: 50%;
 	margin-left: -480px;
 	margin-top: -295px;
-    z-index: 10;
+    z-index: 300;
     box-shadow: 0 20px 40px rgba(0,0,0, 0.75);
     padding-top: 64px;
     padding-left: 100px;
