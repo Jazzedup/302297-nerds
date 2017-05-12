@@ -1299,6 +1299,9 @@ textarea[name="inbox"]:focus {
     font-weight: 500;
     font-family: "Roboto", "Arial", sans-serif;
     padding: 15px;
+    text-decoration: none;
+    border: none;
+    outline-style: none;
 }
 .send-btn:hover {
     background-color: #e74246;
