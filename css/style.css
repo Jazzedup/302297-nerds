@@ -68,6 +68,7 @@ body {
 }
 .main-nav li {
     display: inline-block;
+    vertical-align: baseline;
     margin-right: 47px;
 }
 .main-nav li:last-child {
@@ -259,6 +260,7 @@ body {
 
 .btn {
     display: inline-block;
+    vertical-align: baseline;
     height: 50px;
     padding-top: 16px;
     -webkit-box-sizing: border-box;
@@ -423,6 +425,7 @@ h2.advantages-title {
 }
 .we-do {
     display: inline-block;
+    vertical-align: baseline;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 24px;
@@ -662,6 +665,7 @@ h2.advantages-title {
 
 .price-control input {
     display: inline-block;
+    vertical-align: baseline;
     margin-left: 0;
     width: 60px;
     padding: 8px;
@@ -825,6 +829,7 @@ input[type="checkbox"]:checked + label span {
 .sort-down {
     position: absolute;
     display: inline-block;
+    vertical-align: baseline;
     top: 35px;
     left: 0;
     border: 5px solid transparent;
@@ -834,6 +839,7 @@ input[type="checkbox"]:checked + label span {
 .sort-up {
     position: absolute;
     display: inline-block;
+    vertical-align: baseline;
     top: 29px;
     right: 0;
     border: 5px solid transparent;
@@ -1195,7 +1201,24 @@ a.social-btn:active {
     padding-left: 100px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    visibility: hidden;
+    display: none;
+}
+.popup-show {
+    display: block;
+    -webkit-animation: bounce 1s;
+            animation: bounce 1s;
+}
+@-webkit-keyframes bounce {
+    0% {-webkit-transform: translateY(-2000px);transform: translateY(-2000px);}
+    50%   {-webkit-transform: translateY(300px);transform: translateY(300px);}
+    70%   {-webkit-transform: translateY(-250px);transform: translateY(-250px);}
+    100%     {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+@keyframes bounce {
+    0% {-webkit-transform: translateY(-2000px);transform: translateY(-2000px);}
+    50%   {-webkit-transform: translateY(300px);transform: translateY(300px);}
+    70%   {-webkit-transform: translateY(-250px);transform: translateY(-250px);}
+    100%     {-webkit-transform: translateY(0);transform: translateY(0);}
 }
 .popup b {
     font-size: 45px;
@@ -1203,26 +1226,29 @@ a.social-btn:active {
     font-weight: 500;
     margin-bottom: 35px;
     display: inline-block;
+    vertical-align: baseline;
     position: relative;
 }
-.popup b::after {
+.close-write-us {
     display: inline-block;
+    vertical-align: baseline;
     position: absolute;
-    top: 10px;
-    left: 750px;
+    top: 78px;
+    right: 90px;
     content: "";
     width: 21px;
     height: 21px;
     background: url("../img/spritesheet.png") no-repeat;
-    width: 21px;
-    height: 21px;
     background-position: -345px -40px;
+    border: none;
+    overflow: hidden;
+    text-indent: -1000px;
     opacity: 0.3;
 }
-.popup b:hover::after {
+.close-write-us:hover {
     opacity: 1;
 }
-.popup b:active::after {
+.close-write-us:active {
     opacity: 0.1;
 }
 .popup-form label {
@@ -1235,6 +1261,7 @@ a.social-btn:active {
 .your-mail,
 .your-text {
     display: inline-block;
+    vertical-align: baseline;
 }
 .your-name {
     margin-right: 40px;
